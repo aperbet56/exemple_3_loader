@@ -6,7 +6,7 @@ Contruction d'un loader permettant de faire patientier les internautes en attend
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/exemple_3_loader/
 
 ## Développez avec
 
