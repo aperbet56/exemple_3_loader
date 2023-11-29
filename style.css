@@ -1,0 +1,74 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+}
+
+.loader {
+    width: 70px;
+    display: flex;
+}
+
+.loader span {
+    width: 12px;
+    height: 105px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 0 1px;
+    animation: loading 800ms ease-in-out infinite;
+}
+
+/**** Animation loading ****/
+
+@keyframes loading {
+    0%,60%,100% {
+      transform:scaleY(0.05);
+    }
+    35% {
+      transform:scaleY(1);
+    }
+}
+
+.loader span:nth-child(1) {
+    background-color: #ffd700;
+    animation-delay: -700ms;
+}
+  
+.loader span:nth-child(2) {
+    background-color: #04ffa7;
+    animation-delay: -600ms;
+}
+  
+.loader span:nth-child(3) {
+    background-color: #ff8502;
+    animation-delay: -500ms;
+}
+
+.loader span:nth-child(4) {
+    background-color: #ff0475;
+    animation-delay: -400ms;
+}
+
+.loader span:nth-child(5) {
+    background-color: #0390fc;
+    animation-delay: -300ms;
+}
+
+.loader span:nth-child(6) {
+    background-color: #ff0404;
+    animation-delay: -200ms;
+}
+  
